@@ -1,0 +1,40 @@
+baseURL = "https://dancron.in"
+languageCode = "en-gb"
+title = "dancron.in"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+  name = "Daniel Cronin"
+
+[params]
+   author = "Daniel Cronin"
+   description = "A personal website."
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "archive"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
