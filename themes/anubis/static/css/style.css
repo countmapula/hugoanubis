@@ -32,7 +32,7 @@ nav,
 section,
 summary {
     display: block;
-}	
+}
 
 .container {
     max-width: 42em;
@@ -90,7 +90,7 @@ a.skip-main {
     z-index:-999;
 }
 
-a.skip-main:focus, 
+a.skip-main:focus,
 a.skip-main:active {
     left: auto;
     top: 0px;
@@ -147,8 +147,9 @@ blockquote {
 }
 
 p {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 2em;
 }
 
 hr {
@@ -320,7 +321,7 @@ article img {
 }
 
 .pagination {
-    text-align: center;   
+    text-align: center;
 }
 
 .pagination-item {
